@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Tarefas do Dia</h1>
+        <h4>Use este site para ajudar a deixar o seu dia mais organizado</h2>
+        <input type="text" id="taskInput" placeholder="Adicione uma tarefa">
+        <input type="time" id="taskDeadline" placeholder="Defina o prazo">
+        <button onclick="addTask()">Adicionar</button>
+        <ul id="taskList"></ul>
+    </div>
+</body>
+</html>
